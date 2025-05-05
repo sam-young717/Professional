@@ -60,11 +60,6 @@ jobs:
         commandLinePattern: '${cpptestcli} -data ../workspace -report "${reportDir}" -settings "C:\Users\syoung\Documents\CppTestEclipse\cpptest\cpptestcli.properties" -bdf timer.bdf ${additionalParams}'
         additionalParams: '-config "builtin://MISRA C 2023 (MISRA C 2012)"' 
         
-
-    - name: Configure CMake in build directory
-      run: cmake -DCPPTEST_COVERAGE=ON -DCPPTEST_HOME=C:\Users\syoung\Documents\ToolRawDownloads\cpptest -B build
-      
-        
     - name: Running timer
       run: ./build/timer
       
