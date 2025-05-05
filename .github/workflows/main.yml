@@ -34,6 +34,9 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v4
 
+    - name: Accept Parasoft EULA
+      run: echo "parasoft.eula.accepted=true" >> C:\Users\syoung\Documents\CppTestEclipse\cpptest\cpptestcli.properties
+
     # Configures your CMake project. Be sure the compile_commands.json file is created.
     - name: Configure CMake
       
