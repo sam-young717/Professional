@@ -54,7 +54,7 @@ jobs:
       with:
     # C/C++test workspace will be created in '../workspace'.
     # C/C++test will create a new project based on the provided .bdf file.
-        additionalParams: '-localsettings cpptestcli.properties'
+        additionalParams: '-settings cpptestcli.properties'
         commandLinePattern: '${cpptestcli} -data ../workspace -config "${testConfig}" -report "${reportDir}" -bdf "${input}" ${additionalParams}'
         
 
