@@ -58,8 +58,8 @@ jobs:
         additionalParams: '-config "builtin://MISRA C 2023 (MISRA C 2012)"' 
         
 
-    - name: Configure CMake in build directory
-      run: cmake -DCPPTEST_COVERAGE=ON -DCPPTEST_HOME=C:\Users\syoung\Documents\ToolRawDownloads\cpptest -B build
+    # - name: Configure CMake in build directory
+    #   run: cmake -DCPPTEST_COVERAGE=ON -DCPPTEST_HOME=C:\Users\syoung\Documents\ToolRawDownloads\cpptest -B build
       
         
     - name: Running timer
