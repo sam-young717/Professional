@@ -55,7 +55,7 @@ jobs:
     # C/C++test workspace will be created in '../workspace'.
     # C/C++test will create a new project based on the provided .bdf file.
         additionalParams: '-settings "C:\Users\syoung\Documents\CppTestEclipse\cpptest\cpptestcli.properties"'
-        commandLinePattern: '${cpptestcli} -config "builtin://MISRA C 2023 (MISRA C 2012)" -data ../workspace -report "${reportDir}" -bdf "timer.bdf" ${additionalParams}'
+        commandLinePattern: '${cpptestcli} -config "builtin://Run Unit Tests" -data ../workspace -report "${reportDir}" -bdf "timer.bdf" ${additionalParams}'
         
 
     # - name: Configure CMake in build directory
