@@ -55,7 +55,7 @@ jobs:
     # C/C++test workspace will be created in '../workspace'.
     # C/C++test will create a new project based on the provided .bdf file.
         additionalParams: '-settings "C:\Users\syoung\Documents\CppTestEclipse\cpptest\cpptestcli.properties"'
-        commandLinePattern: '${cpptestcli} -import "C:\Users\syoung\parasoft\workspace\Timer\.project" -config "builtin://Generate Unit Tests" -resource /Timer -data "C:\Users\syoung\parasoft\workspace" -report "${reportDir}" -bdf "timer.bdf" ${additionalParams} -publish'
+        commandLinePattern: '${cpptestcli} -compiler "gcc_9-64" -import "C:\Users\syoung\parasoft\workspace\Timer\.project" -config "builtin://Generate Unit Tests" -resource /Timer -data "C:\Users\syoung\parasoft\workspace" -report "${reportDir}" -bdf "timer.bdf" ${additionalParams} -publish'
         
 
     # - name: Configure CMake in build directory
