@@ -55,7 +55,7 @@ jobs:
     # C/C++test workspace will be created in '../workspace'.
     # C/C++test will create a new project based on the provided .bdf file.
         
-        additionalParams: '-settings "C:\Users\syoung\Documents\CppTestEclipse\cpptest\cpptestcli.properties"'
+        additionalParams: '-settings "C:\Users\syoung\Documents\CppTestEclipse\cpptest\cpptestcli.propertiess"'
         commandLinePattern: '${cpptestcli} -config "builtin://Flow Analysis Standard" -report -report "C:\Users\syoung\Documents\CppTestEclipse\cpptest\examples\Timer\reports" -bdf C:/Users/syoung/Documents/CppTestEclipse/cpptest/examples/Timer.temp/timer.bdf ${additionalParams} -showdetails -publish'
         
 
