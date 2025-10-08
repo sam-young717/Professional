@@ -56,7 +56,7 @@ jobs:
     # C/C++test will create a new project based on the provided .bdf file.
         
         additionalParams: '-settings "C:\Users\syoung\Documents\CppTestEclipse\cpptest\cpptestcli.properties"'
-        commandLinePattern: '${cpptestcli} -config "MRM" -data "C:\Users\syoung\parasoft\workspace" -report "C:\Users\syoung\Documents\CppTestEclipse\cpptest\examples\Timer\reports" -bdf "C:\Users\syoung\Documents\CppTestEclipse\cpptest\examples\Timer\timer.bdf" ${additionalParams} -showdetails -publish'
+        commandLinePattern: '${cpptestcli} -config "builtin://MRM" -data "C:\Users\syoung\parasoft\workspace" -report "C:\Users\syoung\Documents\CppTestEclipse\cpptest\examples\Timer\reports" -bdf "C:\Users\syoung\Documents\CppTestEclipse\cpptest\examples\Timer\timer.bdf" ${additionalParams} -showdetails -publish'
         
 
     # - name: Configure CMake in build directory
